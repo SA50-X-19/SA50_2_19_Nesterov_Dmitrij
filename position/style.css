@@ -85,3 +85,31 @@
     background-color: white;
     border: dotted;
 }
+.square_first2{
+    display: flex;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    left: 100px;
+    top: 150px;
+    background-color: red;
+}
+.square_second2{
+    display: flex;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    left: 100px;
+    top: 75px;
+    background-color: purple;
+    z-index: 2;
+}
+.square_third2{
+    display: flex;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    left: 150px;
+    top: 300px;
+    background-color:lightgreen;
+}
