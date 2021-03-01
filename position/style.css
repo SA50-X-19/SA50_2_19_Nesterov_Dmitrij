@@ -150,3 +150,35 @@
     top: 300px;
     background-color:white;
 }
+.fifth_frame{
+    display: flex;
+    position: relative;
+    height: 500px;
+    margin: 20%;
+    top: -500px;
+    background-color: white;
+    border: dotted; 
+    flex-direction: column;
+    overflow: scroll;
+}
+.blocktext{
+    display: flex;
+    position: relative;
+    height: 100px;
+    margin: 0%;
+    top: 0;
+    width: 895px;
+    background-color: yellowgreen;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pro100text{
+     display: flex;
+     position: relative;
+     
+     border: solid;
+     border-color:yellowgreen ;
+     flex-direction: column;
+}
