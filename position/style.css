@@ -113,3 +113,40 @@
     top: 300px;
     background-color:lightgreen;
 }
+.four_frame{
+    display: flex;
+    position:relative;
+    height: 500px;
+    margin: 30%;
+    top: -200px;
+    background-color: white;
+    border: dotted;
+}
+.four_frame1{
+    display: flex;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    top: 5%;
+    left: 70px;
+    background-color: lightgreen;  
+    
+}
+.square_first3{
+    display: flex;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    left: 50px;
+    top: 30px;
+    background-color: white;
+}
+.square_second3{
+    display: flex;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    left: 150px;
+    top: 300px;
+    background-color:white;
+}
