@@ -3,7 +3,7 @@
     padding: 0;
     color: whitesmoke;
     text-decoration: none;
-
+    list-style-type: none;
 }
 body{
     display: flex;
@@ -11,4 +11,44 @@ body{
     font-family: sans-serif;
     background-size: cover;
     background-attachment: fixed;
+}
+header{
+    width: 100%;
+    display: flex;
+    max-width: 94%;
+    justify-content: space-between;
+}
+.navlink{
+    display: flex;
+    max-width: 490px;
+    width: 100%;
+    justify-content: space-between;
+}
+.navlink > ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;   
+}
+.link{
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.logo1{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
 }
